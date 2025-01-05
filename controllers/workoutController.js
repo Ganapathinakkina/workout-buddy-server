@@ -7,7 +7,7 @@ const getWorkouts = async (req, res) => {
         return res.status(401).json({ error: 'Unauthorized access' });
     }
     
-    console.log("it here, we got it :"+req.user._id);
+    // console.log("it here, we got it :"+req.user._id);
 
     const user_id = req.user._id;
 

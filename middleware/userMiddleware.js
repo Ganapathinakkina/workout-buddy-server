@@ -16,7 +16,7 @@ const authUser = async(req, res, next)=>{
         const {_id} = jwt.verify(token, process.env.JWT_SECRET)
         console.log("User ID from the JWT toke varification :"+JSON.stringify(_id));
         req.user = await User.findOne({_id}).select("_id");
-        console.log( "The user : "+JSON.stringify(req.user, null, 2)); // Pretty-print the JSON object
+        console.log( "The user : "+JSON.stringify(req.user, null, 2)); 
         next();
 
     }catch(error){
