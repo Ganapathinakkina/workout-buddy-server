@@ -13,7 +13,7 @@ const workoutSchema = mongoose.Schema({
         type: Number,
         required: true,
     }, 
-    user_id: {
+    image_path: {
         type:String,
         required: true
     }
@@ -21,5 +21,6 @@ const workoutSchema = mongoose.Schema({
 }, {timestamps: true})
 
 const Workout = new mongoose.model("workout", workoutSchema);
+
 
 module.exports = Workout;

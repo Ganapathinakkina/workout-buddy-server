@@ -1,3 +1,4 @@
+const User = require("../models/userModel");
 const Workout = require("../models/workoutModel")
 
 //Get all Data
@@ -6,6 +7,7 @@ const getWorkouts = async (req, res) => {
     if (!req.user || !req.user._id) {
         return res.status(401).json({ error: 'Unauthorized access' });
     }
+    
     
     // console.log("it here, we got it :"+req.user._id);
 
@@ -34,14 +36,33 @@ const getWorkout = async (req, res) => {
 //Create Data
 
 const createWorkout = async (req, res) => {
-    const { title, reps, load } = req.body;
+    const { title, reps, load, image_path } = req.body;
     
     try {
         const user_id = req.user._id
-        const newWorkout = new Workout({ title, reps, load, user_id });
+
+        const existedUser= await User.findById(user_id);
+
+        if(!existedUser)
+        {
+            res.status(404).json({ error: "User not found with this Id" });
+        }
+
+        const newWorkout = new Workout({ title, reps, load, image_path });
         console.log(JSON.stringify(newWorkout, null, 2));
 
         const workout = await newWorkout.save();
+
+        if (!existedUser.workout_ids.includes(workout._id)) 
+        { 
+            existedUser.workout_ids.push(workout._id); 
+            await existedUser.save(); 
+            console.log("Saved workout ID:", workout._id);
+        } else {
+            console.log("Workout ID already exists in user's workout_ids array.");
+        }
+
+
         res.status(201).json(workout);
     } catch (err) {
         res.status(404).json({ error: err.message });

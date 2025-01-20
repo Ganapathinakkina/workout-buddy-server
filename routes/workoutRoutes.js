@@ -12,6 +12,7 @@ const {getWorkouts, getWorkout, createWorkout, editWorkout, deleteWorkout} = req
 
 router.use(authUser)
 
+
 //get entire records
 
 router.get("/", getWorkouts);

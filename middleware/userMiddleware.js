@@ -20,6 +20,7 @@ const authUser = async(req, res, next)=>{
         next();
 
     }catch(error){
+        console.log("Error occured : "+error.stack);
         res.status(401).json({ error: "Request is not authorised" })
     }
 }

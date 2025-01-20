@@ -1,37 +1,32 @@
 [{
-    "title": "Push-ups",
-    "reps": 20,
+    "title": "Incline Push-ups",
+    "reps": 30,
     "load": 10,
-    "user_id": "6751e9cafa37b2d28b4fac69",
-    "image_path":" "
+    "image_path":"../../client/src/Assets/Exercises/UpperBody/Inclined PushUps.jpg "
   },
   {
-    "title": "Pull-ups",
+    "title": "Decline Pull-ups",
     "reps": 20,
     "load": 10,
-    "user_id": "6751e9cafa37b2d28b4fac69",
-    "image_path":" "
+    "image_path":"../../client/src/Assets/Exercises/UpperBody/Decline Push-Ups.jpg "
   },
   {
-    "title": "Hammer curls",
+    "title": "Diamond push-up",
     "reps": 20,
     "load": 10,
-    "user_id": "6751e9cafa37b2d28b4fac69",
-    "image_path":" "
+    "image_path":"../../client/src/Assets/Exercises/UpperBody/Diamond push-up.jpg "
   },
   {
-    "title": "Butterfly press",
-    "reps": 20,
+    "title": "Shoulder taps",
+    "reps": 50,
     "load": 10,
-    "user_id": "6751e9cafa37b2d28b4fac69",
-    "image_path":" "
+    "image_path":"../../client/src/Assets/Exercises/UpperBody/Soulder Taps.jpg "
   },
   {
-    "title": "Inclined push ups",
+    "title": "Wall push-ups",
     "reps": 20,
     "load": 10,
-    "user_id": "6751e9cafa37b2d28b4fac69",
-    "image_path":" "
+    "image_path":"../../client/src/Assets/Exercises/UpperBody/Wall Push-Ups.jpg "
   }
   
 ]

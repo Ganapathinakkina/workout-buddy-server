@@ -1,4 +1,6 @@
 const User = require("../models/userModel");
+const Workout = require("../models/workoutModel");
+
 const createToken = require("../utils/token");
 const mongoose = require("mongoose");
 
@@ -9,6 +11,7 @@ const loginUser = async (req, res) => {
     try {
         const user = await User.login(email, password)
         //create token
+        console.log("User Id : "+user._id);
         const token = createToken(user._id)
         res.status(200).json({ email, password, token })
 
@@ -67,9 +70,10 @@ const userInputs = async (req, res)=>{
             return res.status(500).json({ error: "Failed to update user" });
         }
 
+        const collectedWorkoutData=await Workout.find();
 
         updatedUser.password = null;
-        res.status(200).json(updatedUser);
+        res.status(200).json(collectedWorkoutData);
 
     }catch(err){
         res.status(400).json({error: err.message})
