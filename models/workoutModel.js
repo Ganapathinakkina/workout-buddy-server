@@ -13,9 +13,9 @@ const workoutSchema = mongoose.Schema({
         type: Number,
         required: true,
     }, 
-    image_path: {
+    image_blob: {
         type:String,
-        required: true
+        required: false
     }
 
 }, {timestamps: true})

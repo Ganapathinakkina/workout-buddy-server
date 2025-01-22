@@ -2,6 +2,20 @@ const fs = require("fs");
 const path = require("path");
 const WorkoutModel = require("../models/workoutModel");
 
+const convertImageToBase64 = (filePath) => {
+    try {
+      const absolutePath = path.resolve(__dirname, filePath);
+      const data = fs.readFileSync(absolutePath); 
+      const base64String = data.toString("base64");
+      const mimeType = `image/${path.extname(absolutePath).substring(1)}`;
+      return `data:${mimeType};base64,${base64String}`;
+    } catch (error) {
+      console.error(`Error converting image to Base64: ${filePath}`);
+      console.error(error);
+      return null; // Return null in case of an error
+    }
+  };  
+
 const loadData = async () => {
     try {
         const filePath = path.join(__dirname, "workoutData.json");
@@ -22,10 +36,11 @@ const loadData = async () => {
                     shallUpdate=true;
                     exists.load=workout.load;
                 }
-                if(exists.image_path!==workout.image_path)
+                
+                if(!exists.image_blob)
                 {
                     shallUpdate=true;
-                    exists.image_path=workout.image_path;
+                    exists.image_blob=convertImageToBase64(workout.image_blob);
                 }
 
                 if(shallUpdate)
@@ -36,9 +51,11 @@ const loadData = async () => {
                 else
                 {
                     console.log(`Skipping existing workout: ${workout.title}`);
+                    // console.log("Workout Already Existed")
                 }
 
             } else {
+                workout.image_blob=convertImageToBase64(workout.image_blob);
                 await WorkoutModel.create(workout);
                 console.log(`Added workout: ${workout.title}`);
             }

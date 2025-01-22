@@ -2,31 +2,25 @@
     "title": "Incline Push-ups",
     "reps": 30,
     "load": 10,
-    "image_path":"../../client/src/Assets/Exercises/UpperBody/Inclined PushUps.jpg "
-  },
-  {
-    "title": "Decline Pull-ups",
-    "reps": 20,
-    "load": 10,
-    "image_path":"../../client/src/Assets/Exercises/UpperBody/Decline Push-Ups.jpg "
+    "image_blob":"./static-content/Inclined-PushUps.jpg"
   },
   {
     "title": "Diamond push-up",
     "reps": 20,
     "load": 10,
-    "image_path":"../../client/src/Assets/Exercises/UpperBody/Diamond push-up.jpg "
+    "image_blob":"./static-content/Diamond-push-up.jpg"
   },
   {
     "title": "Shoulder taps",
     "reps": 50,
     "load": 10,
-    "image_path":"../../client/src/Assets/Exercises/UpperBody/Soulder Taps.jpg "
+    "image_blob":"./static-content/Soulder-Taps.jpg"
   },
   {
     "title": "Wall push-ups",
     "reps": 20,
     "load": 10,
-    "image_path":"../../client/src/Assets/Exercises/UpperBody/Wall Push-Ups.jpg "
+    "image_blob":"./static-content/Wall-Push-Ups.jpg"
   }
-  
+   
 ]

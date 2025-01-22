@@ -67,7 +67,7 @@ const userInputs = async (req, res)=>{
         );
 
         if (!updatedUser) {
-            return res.status(500).json({ error: "Failed to update user" });
+            return res.status(500).json({ error: "Failed to update userInputs" });
         }
 
         const collectedWorkoutData=await Workout.find();
