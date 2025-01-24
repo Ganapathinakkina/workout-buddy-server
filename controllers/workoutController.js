@@ -93,10 +93,12 @@ const deleteWorkout = async (req, res) => {
     }
 }
 
+
+
 module.exports = {
     getWorkouts,
     getWorkout,
     createWorkout,
     editWorkout,
-    deleteWorkout
+    deleteWorkout,
 }

@@ -12,7 +12,7 @@ const convertImageToBase64 = (filePath) => {
     } catch (error) {
       console.error(`Error converting image to Base64: ${filePath}`);
       console.error(error);
-      return null; // Return null in case of an error
+      return null; 
     }
   };  
 
@@ -35,6 +35,12 @@ const loadData = async () => {
                 {
                     shallUpdate=true;
                     exists.load=workout.load;
+                }
+
+                if(exists.workoutType!==workout.workoutType)
+                {
+                    shallUpdate=true;
+                    exists.workoutType=workout.workoutType;
                 }
                 
                 if(!exists.image_blob)

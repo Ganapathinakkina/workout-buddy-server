@@ -2,25 +2,84 @@
     "title": "Incline Push-ups",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Inclined-PushUps.jpg"
+    "image_blob":"./static-content/Inclined-PushUps.jpg",
+    "workoutType": "Low"
   },
   {
     "title": "Diamond push-up",
     "reps": 20,
     "load": 10,
-    "image_blob":"./static-content/Diamond-push-up.jpg"
+    "image_blob":"./static-content/Diamond-push-up.jpg",
+    "workoutType": "Very-Hard"
   },
   {
     "title": "Shoulder taps",
     "reps": 50,
     "load": 10,
-    "image_blob":"./static-content/Soulder-Taps.jpg"
+    "image_blob":"./static-content/Soulder-Taps.jpg",
+    "workoutType": "Very-low"
   },
   {
     "title": "Wall push-ups",
     "reps": 20,
     "load": 10,
-    "image_blob":"./static-content/Wall-Push-Ups.jpg"
+    "image_blob":"./static-content/Wall-Push-Ups.jpg",
+    "workoutType": "Very-low"
+  },
+  {
+    "title": "Decline-Push-ups",
+    "reps": 30, 
+    "load": 10,
+    "image_blob":"./static-content/Decline-Push-Ups.jpg",
+    "workoutType": "Very-Hard"
+  },
+  {
+    "title": "Plank-to-Push-Up",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Plank-to-Push-Up.jpg",
+    "workoutType": "Very-Hard"
+  },
+  {
+    "title": "Squat",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Squat.jfif",
+    "workoutType": "Hard"
+  },
+  {
+    "title": "Plank",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Plank.jpg",
+    "workoutType": "Medium"
+  },
+  {
+    "title": "Tricep-Dips",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Tricep-Dips.jpg",
+    "workoutType": "Hard"
+  },
+  {
+    "title": "Lunges",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Lunges.jpg",
+    "workoutType": "Very-low"
+  },
+  {
+    "title": "Jumping-Jacks",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Jumping-Jacks.jpg",
+    "workoutType": "Medium"
+  },
+  {
+    "title": "Bicycle-Crunch",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Bicycle-Crunch.jpg",
+    "workoutType": "Low"
   }
-   
 ]

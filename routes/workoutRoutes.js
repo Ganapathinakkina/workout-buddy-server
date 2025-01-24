@@ -7,16 +7,14 @@ const router = express.Router();
 
 //Require Controllers
 
-const {getWorkouts, getWorkout, createWorkout, editWorkout, deleteWorkout} = require("../controllers/workoutController");
+const {getWorkouts, getWorkout, createWorkout, editWorkout, deleteWorkout,} = require("../controllers/workoutController");
 
 
 router.use(authUser)
 
 
 //get entire records
-
 router.get("/", getWorkouts);
-
 
 //Get single record
 router.get("/:id", getWorkout);
@@ -29,5 +27,10 @@ router.patch("/:id", editWorkout)
 
 //Delete record
 router.delete("/:id", deleteWorkout)
+
+
+
+
+
 
 module.exports = router
