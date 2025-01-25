@@ -81,5 +81,89 @@
     "load": 10,
     "image_blob":"./static-content/Bicycle-Crunch.jpg",
     "workoutType": "Low"
+  },
+  {
+    "title": "Burpees",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Burpees.jpg",
+    "workoutType": "Very-Hard"
+  },
+  {
+    "title": "Cobra-stretch",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Cobra-stretch.jpg",
+    "workoutType": "Very-Hard"
+  },
+  {
+    "title": "High-Knees",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/High-Knees.jpg",
+    "workoutType": "Hard"
+  },
+  {
+    "title": "Superman-Pose",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Superman-Pose.jpg",
+    "workoutType": "Hard"
+  },
+  {
+    "title": "Leg-Raises",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Leg-Raises.jpg",
+    "workoutType": "Very-Hard"
+  },
+  {
+    "title": "Push-Ups",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Push-Ups.jpg",
+    "workoutType": "Medium"
+  },
+  {
+    "title": "Russian-twists",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Russian-twists.jpg",
+    "workoutType": "Medium"
+  },
+  {
+    "title": "Donkey-kick",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Donkey-kick.jpg",
+    "workoutType": "Low"
+  },
+  {
+    "title": "Sumo-Squats",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Sumo-Squats.jpg",
+    "workoutType": "Low"
+  },
+  {
+    "title": "Child-pose",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Child-pose.jpg",
+    "workoutType": "Very-low"
+  },
+  {
+    "title": "Cat-Cow-pose",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Cat-Cow-pose.jpg",
+    "workoutType": "Very-low"
+  },
+  {
+    "title": "Calf-Raises",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low"
   }
 ]
