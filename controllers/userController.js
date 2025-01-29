@@ -71,29 +71,36 @@ const userInputs = async (req, res) => {
     }
 
     const collectedWorkoutData = await Workout.find();
-    let filteredWorkouts;
+    let filteredWorkouts = collectedWorkoutData.filter((workout) => {
+      if (gender === "Male") {
+        return workout.gender === "Male";
+
+      } else {
+        return workout.gender === "Female";
+      }
+    });
     if (age >= 18 && age <= 25) {
-      filteredWorkouts = collectedWorkoutData.filter(
+      filteredWorkouts = filteredWorkouts.filter(
         (workout) =>
           workout.workoutType === "Very-Hard"
       );
     } else if (age > 25 && age <= 35) {
-      filteredWorkouts = collectedWorkoutData.filter(
+      filteredWorkouts = filteredWorkouts.filter(
         (workout) =>
           workout.workoutType === "Hard"
       );
     } else if (age > 35 && age <= 45) {
-      filteredWorkouts = collectedWorkoutData.filter(
+      filteredWorkouts = filteredWorkouts.filter(
         (workout) =>
           workout.workoutType === "Medium"
       );
     } else if (age > 45 && age <= 55) {
-      filteredWorkouts = collectedWorkoutData.filter(
+      filteredWorkouts = filteredWorkouts.filter(
         (workout) =>
           workout.workoutType === "Low"
       );
     } else {
-      filteredWorkouts = collectedWorkoutData.filter(
+      filteredWorkouts = filteredWorkouts.filter(
         (workout) =>
           workout.workoutType === "Very-low"
       );

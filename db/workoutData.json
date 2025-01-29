@@ -1,169 +1,399 @@
-[{
+[
+  {
     "title": "Incline Push-ups",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Inclined-PushUps.jpg",
-    "workoutType": "Low"
+    "workoutType": "Low",
+    "gender": "Male"
   },
   {
     "title": "Diamond push-up",
     "reps": 20,
     "load": 10,
     "image_blob":"./static-content/Diamond-push-up.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "Shoulder taps",
     "reps": 50,
     "load": 10,
     "image_blob":"./static-content/Soulder-Taps.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
   },
   {
     "title": "Wall push-ups",
     "reps": 20,
     "load": 10,
     "image_blob":"./static-content/Wall-Push-Ups.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
   },
   {
     "title": "Decline-Push-ups",
     "reps": 30, 
     "load": 10,
     "image_blob":"./static-content/Decline-Push-Ups.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "Plank-to-Push-Up",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Plank-to-Push-Up.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "Squat",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Squat.jfif",
-    "workoutType": "Hard"
+    "workoutType": "Hard",
+    "gender": "Male"
   },
   {
     "title": "Plank",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Plank.jpg",
-    "workoutType": "Medium"
+    "workoutType": "Medium",
+    "gender": "Male"
   },
   {
     "title": "Tricep-Dips",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Tricep-Dips.jpg",
-    "workoutType": "Hard"
+    "workoutType": "Hard",
+    "gender": "Male"
   },
   {
     "title": "Lunges",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Lunges.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
   },
   {
     "title": "Jumping-Jacks",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Jumping-Jacks.jpg",
-    "workoutType": "Medium"
+    "workoutType": "Medium",
+    "gender": "Male"
   },
   {
     "title": "Bicycle-Crunch",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Bicycle-Crunch.jpg",
-    "workoutType": "Low"
+    "workoutType": "Low",
+    "gender": "Male"
   },
   {
     "title": "Burpees",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Burpees.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "Cobra-stretch",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Cobra-stretch.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "High-Knees",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/High-Knees.jpg",
-    "workoutType": "Hard"
+    "workoutType": "Hard",
+    "gender": "Male"
   },
   {
     "title": "Superman-Pose",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Superman-Pose.jpg",
-    "workoutType": "Hard"
+    "workoutType": "Hard",
+    "gender": "Male"
   },
   {
     "title": "Leg-Raises",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Leg-Raises.jpg",
-    "workoutType": "Very-Hard"
+    "workoutType": "Very-Hard",
+    "gender": "Male"
   },
   {
     "title": "Push-Ups",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Push-Ups.jpg",
-    "workoutType": "Medium"
+    "workoutType": "Medium",
+    "gender": "Male"
   },
   {
     "title": "Russian-twists",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Russian-twists.jpg",
-    "workoutType": "Medium"
+    "workoutType": "Medium",
+    "gender": "Male"
   },
   {
     "title": "Donkey-kick",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Donkey-kick.jpg",
-    "workoutType": "Low"
+    "workoutType": "Low",
+    "gender": "Male"
   },
   {
     "title": "Sumo-Squats",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Sumo-Squats.jpg",
-    "workoutType": "Low"
+    "workoutType": "Low",
+    "gender": "Male"
   },
   {
     "title": "Child-pose",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Child-pose.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
   },
   {
     "title": "Cat-Cow-pose",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Cat-Cow-pose.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
   },
   {
-    "title": "Calf-Raises",
+    "title": "Kalf-Raises",
     "reps": 30,
     "load": 10,
     "image_blob":"./static-content/Calf-Raises.jpg",
-    "workoutType": "Very-low"
+    "workoutType": "Very-low",
+    "gender": "Male"
+  },
+
+
+
+
+  {
+    "title": "Childs-Pose-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low",
+    "gender": "Female"
+  },
+ {
+    "title": "Cobra-Stretch-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low",
+    "gender": "Female"
+  },
+ {
+    "title": "Donkey-Kick-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low",
+    "gender": "Female"
+  },
+ {
+    "title": "Kalf-Raises-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low",
+    "gender": "Female"
+  },
+ {
+    "title": "Hip-Circles-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-low",
+    "gender": "Female"
+  },
+ {
+    "title": "Hip-Thrust-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Low",
+    "gender": "Female"
+  },
+ {
+    "title": "Bicycle-Crunches-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Low",
+    "gender": "Female"
+  },
+ {
+    "title": "Sumo-Squat-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Low",
+    "gender": "Female"
+  },
+ {
+    "title": "Russian-Twist-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Low",
+    "gender": "Female"
+  },
+ {
+    "title": "Plank-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Low",
+    "gender": "Female"
+  },
+ {
+    "title": "Lunges-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Medium",
+    "gender": "Female"
+  },
+ {
+    "title": "Squat-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Medium",
+    "gender": "Female"
+  },
+ {
+    "title": "Jumping-Jacks-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Medium",
+    "gender": "Female"
+  },
+ {
+    "title": "Chest-Press-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Medium",
+    "gender": "Female"
+  },
+ {
+    "title": "Tricep-Dips-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Medium",
+    "gender": "Female"
+  },
+ {
+    "title": "Flutter-Kicks-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "High-Knees-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Arnold-Press-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Dead-Bugs-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Jump-Rope-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Mountain-Climber-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Pull-Ups-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Push-ups-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Burpees-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-Hard",
+    "gender": "Female"
+  },
+ {
+    "title": "Triceps-Kickback-W",
+    "reps": 30,
+    "load": 10,
+    "image_blob":"./static-content/Calf-Raises.jpg",
+    "workoutType": "Very-Hard",
+    "gender": "Female"
   }
+
 ]
