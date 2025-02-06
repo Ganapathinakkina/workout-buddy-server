@@ -1,3 +1,4 @@
+const { convertImageToBase64 } = require("../db/dbLoader");
 const User = require("../models/userModel");
 const Workout = require("../models/workoutModel")
 
@@ -6,19 +7,26 @@ const Workout = require("../models/workoutModel")
 const getWorkouts = async (req, res) => {
     if (!req.user || !req.user._id) {
         return res.status(401).json({ error: 'Unauthorized access' });
-    }
-
-    // console.log("it here, we got it :"+req.user._id);
+    } 
 
     const user_id = req.user._id;
 
     try {
-        const workoutData = await Workout.find({ user_id }).sort({ createdAt: -1 });
-        res.status(200).json(workoutData)
+        const existedUser = await User.findById(user_id);
+
+        const workoutsList = await Promise.all(
+            existedUser.workout_ids.map(async (id) => {
+                return await Workout.findById(id);
+            })
+        );
+        res.status(200).json(workoutsList)
     } catch (err) {
         res.status(400).json({ error: err.message })
     }
 }
+
+
+
 
 //Get Single Data
 
@@ -35,7 +43,7 @@ const getWorkout = async (req, res) => {
 //Create Data
 
 const createWorkout = async (req, res) => {
-    const { title, reps, load, image_blob } = req.body;
+    const { title, reps, load } = req.body;
     
     try {
         const user_id = req.user._id
@@ -47,14 +55,18 @@ const createWorkout = async (req, res) => {
             res.status(404).json({ error: "User not found with this Id" });
         }
 
+        image_blob=convertImageToBase64(existedUser.gender.toLowerCase()==="male" ? 
+              "./static-content/defaults/male-workout.png"
+            : "./static-content/defaults/female-workout.png");
+
+
         const newWorkout = new Workout({ title, reps, load, image_blob });
-        console.log(JSON.stringify(newWorkout, null, 2));
 
         const workout = await newWorkout.save();
 
         if (!existedUser.workout_ids.includes(workout._id)) 
         { 
-            existedUser.workout_ids.push(workout._id); 
+            existedUser.workout_ids.push(workout._id.toString()); 
             await existedUser.save(); 
             console.log("Saved workout ID:", workout._id);
         } else {

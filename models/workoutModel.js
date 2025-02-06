@@ -24,7 +24,7 @@ const workoutSchema = mongoose.Schema({
     gender:{
         type:String,
         required: false,
-    }
+    },
 
 }, {timestamps: true})
 

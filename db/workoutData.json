@@ -51,7 +51,7 @@
     "title": "Squat",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Squat.jfif",
+    "image_blob":"./static-content/Squat.jpg",
     "workoutType": "Hard",
     "gender": "Male"
   },
@@ -187,7 +187,7 @@
     "title": "Kalf-Raises",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Calf-Raises.jpg",
+    "image_blob":"./static-content/Kalf-Raises.jpg",
     "workoutType": "Very-low",
     "gender": "Male"
   },

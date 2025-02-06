@@ -45,7 +45,8 @@ const signupUser = async (req, res) => {
 const userInputs = async (req, res) => {
 
   console.log(req.body);
-  const { height, weight, gender, age, level, userId } = req.body;
+  const { height, weight, gender, age, level} = req.body;
+  const userId=req.user._id;
   console.log(userId);
 
   try {
@@ -72,7 +73,7 @@ const userInputs = async (req, res) => {
 
     const collectedWorkoutData = await Workout.find();
     let filteredWorkouts = collectedWorkoutData.filter((workout) => {
-      if (gender === "Male") {
+      if (gender.toLowerCase() === "male") {
         return workout.gender === "Male";
 
       } else {
@@ -108,7 +109,7 @@ const userInputs = async (req, res) => {
 
     updatedUser.password = null;
 
-    res.status(200).json({ workouts: filteredWorkouts });
+    res.status(200).json(filteredWorkouts);
 
   } catch (err) {
     res.status(400).json({ error: err.message })
@@ -117,8 +118,26 @@ const userInputs = async (req, res) => {
 }
 
 
+const updateUserWorkouts =  async (req, res)=>{
+
+  const {workoutIds} = req.body;
+  const userId=req.user._id;
+  const existedUser = await User.findById(userId);
+
+  workoutIds.map((w, index)=>{
+    existedUser.workout_ids.push(w);
+
+  })
+
+  await existedUser.save();
+  return res.status(200).json({status:"succesfully added your workouts to the collections"})
+
+}
+
+
 module.exports = {
   loginUser,
   signupUser,
-  userInputs
+  userInputs,
+  updateUserWorkouts,
 }

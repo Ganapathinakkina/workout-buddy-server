@@ -72,4 +72,4 @@ const loadData = async () => {
     }
 };
 
-module.exports = loadData;
+module.exports = { loadData, convertImageToBase64 };

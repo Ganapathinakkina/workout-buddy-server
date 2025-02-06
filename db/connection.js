@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const loadData = require("./dbLoader");
+const {loadData} = require("./dbLoader");
 
 mongoose.connect("mongodb://localhost:27017/backend-project")
  .then(()=>{
