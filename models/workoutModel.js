@@ -25,6 +25,10 @@ const workoutSchema = mongoose.Schema({
         type:String,
         required: false,
     },
+    isCustomWorkout:{
+        type:Boolean,
+        required: false,
+    }
 
 }, {timestamps: true})
 

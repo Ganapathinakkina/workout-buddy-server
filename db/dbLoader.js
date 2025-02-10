@@ -21,7 +21,8 @@ const loadData = async () => {
         const filePath = path.join(__dirname, "workoutData.json");
         const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-        for (const workout of data) {
+        for (let workout of data) {
+            workout.isCustomWorkout=false; 
             const exists = await WorkoutModel.findOne({ title: workout.title });
             if (exists) {
                 let shallUpdate = false;
@@ -50,6 +51,7 @@ const loadData = async () => {
                     exists.image_blob = convertImageToBase64(workout.image_blob);
                 }
 
+                shallUpdate=true;
                 if (shallUpdate) {
                     await exists.save();
                     console.log(`Updated successfuly: ${workout.title}`);

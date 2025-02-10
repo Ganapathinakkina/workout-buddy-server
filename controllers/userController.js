@@ -124,9 +124,18 @@ const updateUserWorkouts =  async (req, res)=>{
   const userId=req.user._id;
   const existedUser = await User.findById(userId);
 
+
+  const filteredWorkoutIds = await Promise.all(
+    existedUser.workout_ids.map(async (id) => {
+      const existedWorkout = await Workout.findById(id);
+      return existedWorkout && existedWorkout.isCustomWorkout ? existedWorkout._id.toString() : null;
+    })
+  );
+  const finalWorkoutIds = filteredWorkoutIds.filter(id => id !== null);
+  existedUser.workout_ids=finalWorkoutIds;
+
   workoutIds.map((w, index)=>{
     existedUser.workout_ids.push(w);
-
   })
 
   await existedUser.save();

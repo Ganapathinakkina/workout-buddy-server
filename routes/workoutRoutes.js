@@ -26,7 +26,7 @@ router.post("/", createWorkout);
 router.patch("/:id", editWorkout)
 
 //Delete record
-router.delete("/:id", deleteWorkout)
+router.delete("/", deleteWorkout)
 
 
 
