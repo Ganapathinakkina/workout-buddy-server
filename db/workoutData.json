@@ -199,7 +199,7 @@
     "title": "Childs-Pose-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Childs-Pose-W.jpeg",
+    "image_blob":"./static-content/Childs-Pose-W.jpg",
     "workoutType": "Very-low",
     "gender": "Female"
   },
@@ -207,7 +207,7 @@
     "title": "Cobra-Stretch-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Cobra-Stretch-W.jpeg",
+    "image_blob":"./static-content/Cobra-Stretch-W.jpg",
     "workoutType": "Very-low",
     "gender": "Female"
   },
@@ -215,7 +215,7 @@
     "title": "Donkey-Kick-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Donkey-Kick-W.jpeg",
+    "image_blob":"./static-content/Donkey-Kick-W.jpg",
     "workoutType": "Very-low",
     "gender": "Female"
   },
@@ -223,7 +223,7 @@
     "title": "Kalf-Raises-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Kalf-Raises-W.jpeg",
+    "image_blob":"./static-content/Kalf-Raises-W.jpg",
     "workoutType": "Very-low",
     "gender": "Female"
   },
@@ -231,7 +231,7 @@
     "title": "Hip-Circles-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Hip-Circles-W.jpeg",
+    "image_blob":"./static-content/Hip-Circles-W.jpg",
     "workoutType": "Very-low",
     "gender": "Female"
   },
@@ -239,7 +239,7 @@
     "title": "Hip-Thrust-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Hip-Thrust-W.jpeg",
+    "image_blob":"./static-content/Hip-Thrust-W.jpg",
     "workoutType": "Low",
     "gender": "Female"
   },
@@ -247,7 +247,7 @@
     "title": "Bicycle-Crunches-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Bicycle-Crunches-W.jpeg",
+    "image_blob":"./static-content/Bicycle-Crunches-W.jpg",
     "workoutType": "Low",
     "gender": "Female"
   },
@@ -255,7 +255,7 @@
     "title": "Sumo-Squat-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Sumo-Squat-W.jpeg",
+    "image_blob":"./static-content/Sumo-Squat-W.jpg",
     "workoutType": "Low",
     "gender": "Female"
   },
@@ -263,7 +263,7 @@
     "title": "Russian-Twist-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Russian-Twist-W.jpeg",
+    "image_blob":"./static-content/Russian-Twist-W.jpg",
     "workoutType": "Low",
     "gender": "Female"
   },
@@ -271,7 +271,7 @@
     "title": "Plank-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Plank-W.jpeg",
+    "image_blob":"./static-content/Plank-W.jpg",
     "workoutType": "Low",
     "gender": "Female"
   },
@@ -279,7 +279,7 @@
     "title": "Lunges-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Lunges-W.jpeg",
+    "image_blob":"./static-content/Lunges-W.jpg",
     "workoutType": "Medium",
     "gender": "Female"
   },
@@ -287,7 +287,7 @@
     "title": "Squat-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Squat-W.jpeg",
+    "image_blob":"./static-content/Squat-W.jpg",
     "workoutType": "Medium",
     "gender": "Female"
   },
@@ -295,7 +295,7 @@
     "title": "Jumping-Jacks-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Jumping-Jacks-W.jpeg",
+    "image_blob":"./static-content/Jumping-Jacks-W.jpg",
     "workoutType": "Medium",
     "gender": "Female"
   },
@@ -303,7 +303,7 @@
     "title": "Chest-Press-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Chest-Press-W.jpeg",
+    "image_blob":"./static-content/Chest-Press-W.jpg",
     "workoutType": "Medium",
     "gender": "Female"
   },
@@ -311,7 +311,7 @@
     "title": "Tricep-Dips-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Tricep-Dips-W.jpeg",
+    "image_blob":"./static-content/Tricep-Dips-W.jpg",
     "workoutType": "Medium",
     "gender": "Female"
   },
@@ -319,7 +319,7 @@
     "title": "Flutter-Kicks-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Flutter-Kicks-W.jpeg",
+    "image_blob":"./static-content/Flutter-Kicks-W.jpg",
     "workoutType": "Hard",
     "gender": "Female"
   },
@@ -327,7 +327,7 @@
     "title": "High-Knees-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/High-Knees-W.jpeg",
+    "image_blob":"./static-content/High-Knees-W.jpg",
     "workoutType": "Hard",
     "gender": "Female"
   },
@@ -335,7 +335,7 @@
     "title": "Arnold-Press-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Arnold-Press-W.jpeg",
+    "image_blob":"./static-content/Arnold-Press-W.jpg",
     "workoutType": "Hard",
     "gender": "Female"
   },
@@ -343,7 +343,7 @@
     "title": "Dead-Bugs-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Dead-Bugs-W.jpeg",
+    "image_blob":"./static-content/Dead-Bugs-W.jpg",
     "workoutType": "Hard",
     "gender": "Female"
   },
@@ -351,7 +351,7 @@
     "title": "Jump-Rope-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Jump-Rope-W.jpeg",
+    "image_blob":"./static-content/Jump-Rope-W.jpg",
     "workoutType": "Hard",
     "gender": "Female"
   },
@@ -359,7 +359,7 @@
     "title": "Mountain-Climber-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Mountain-Climber-W.jpeg",
+    "image_blob":"./static-content/Mountain-Climber-W.jpg",
     "workoutType": "Very-Hard",
     "gender": "Female"
   },
@@ -367,7 +367,7 @@
     "title": "Pull-Ups-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Pull-Ups-W.jpeg",
+    "image_blob":"./static-content/Pull-Ups-W.jpg",
     "workoutType": "Very-Hard",
     "gender": "Female"
   },
@@ -375,7 +375,7 @@
     "title": "Push-ups-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Push-ups-W.jpeg",
+    "image_blob":"./static-content/Push-ups-W.jpg",
     "workoutType": "Very-Hard",
     "gender": "Female"
   },
@@ -383,7 +383,7 @@
     "title": "Burpees-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Burpees-W.jpeg",
+    "image_blob":"./static-content/Burpees-W.jpg",
     "workoutType": "Very-Hard",
     "gender": "Female"
   },
@@ -391,7 +391,7 @@
     "title": "Triceps-Kickback-W",
     "reps": 30,
     "load": 10,
-    "image_blob":"./static-content/Triceps-Kickback-W.jpeg",
+    "image_blob":"./static-content/Triceps-Kickback-W.jpg",
     "workoutType": "Very-Hard",
     "gender": "Female"
   }
